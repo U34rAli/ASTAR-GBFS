@@ -171,11 +171,7 @@ public class Graph {
         // queue.add(adjListArray[index].getFirst());
         if (index > rowsFilled)
             System.out.println(" Index of " + from + " = " + index);
-        // while (queue.isEmpty()) {
 
-        // Edge ed = queue.remove();
-        // System.out.println(" Umar is a very geni ");
-        // }
         LinkedList<Edge> path = new LinkedList<Edge>();
         int sourceIndex = getIndex(source);
         while (sourceIndex > -1) {
@@ -264,16 +260,7 @@ public class Graph {
         int index = getIndex(src);
 
         LinkedList<Vertex> queue = new LinkedList<Vertex>();
-        // // int index = getIndex(source);
 
-        // queue.add("Umar");queue.add("Umar1");queue.add("Umar2");
-        // // if (index > rowsFilled)
-        // System.out.println(queue);
-        // // while (queue.isEmpty()) {
-
-        // queue.remove();
-        // System.out.println(queue);
-        // }
         if (index > -1) {
             queue.add(src);
             while (!queue.isEmpty()) {
