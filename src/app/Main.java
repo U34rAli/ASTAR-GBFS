@@ -42,17 +42,7 @@ public class Main {
 
             graph.getMinPath("S", "G" , heuristics) ;
             graph.GBFS("S","G",heuristics);
-            // LinkedList<String> queue = new LinkedList<String>();
-            // // int index = getIndex(source);
 
-            // queue.add("Umar");queue.add("Umar1");queue.add("Umar2");
-            // // if (index > rowsFilled)
-            // System.out.println(queue);
-            // // while (queue.isEmpty()) {
-
-            // queue.remove();
-            // System.out.println(queue);
-            // }
 
         } catch (NoMoreVertexException e) {
             e.printStackTrace();
